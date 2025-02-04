@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
    const get = localStorage.getItem("cartProducts");
 
    if (!get || get === "[]") {
-       alert("Cart is empty");
+    //    alert("Cart is empty");
    } else {
        putDesign();
    }
